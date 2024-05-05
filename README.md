@@ -122,10 +122,17 @@
 
 <p align="center">2️⃣ 🔮</p>
 <h1 align="center">Dataset</h1>
-<p align="center">
+
   TLC Official Data: The New York City Taxi and Limousine Commission (TLC), created in 1971, is the agency responsible for licensing and regulating New York City's Medallion (Yellow) taxi cabs, for-hire vehicles (community-based liveries, black cars and luxury limousines), commuter vans, and paratransit vehicles. 
 
   TLC Trip Record Data Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
+
+  More info about dataset can be found here:
+  
+  Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+  
+  Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+  
   <br />
  With instant feedback from the code each time you run it.
 </p>
@@ -141,18 +148,18 @@
 <p align="center">3️⃣ 🚀</p>
 <h1 align="center">Launch</h1>
 <p align="center">
-  Don’t have a large team dedicated to Airflow?
+  With the Data Export feature, our dataset goes from Mage to GCP through the Data Exporter feature.
   <br />
   Mage makes it easy for a single developer or small team to scale up and manage thousands of pipelines.
 </p>
 
 |   |   |
 | --- | --- |
-| <b>Fast deploy</b><br />Deploy Mage to AWS, GCP, or Azure with only 2 commands using maintained Terraform templates.<br /><br/><b>Scaling made simple</b><br />Transform very large datasets directly in your data warehouse or through a native integration with Spark.<br /><br /><b>Observability</b><br />Operationalize your pipelines with built-in monitoring, alerting, and observability through an intuitive UI. | <img src="https://github.com/mage-ai/assets/blob/main/overview/observability.gif?raw=True" /> |
+| <b>Fast deploy</b><br />Mage deployed my data to GCP with only 2 commands using.<br /><br/><b>Scaling made simple</b><br />Large datasets directly in the data warehouse.<br /><br /><b>Observability</b><br />Operationalized the pipeline with built-in monitoring, alerting, and observability through an intuitive UI. | <img src="https://github.com/mage-ai/assets/blob/main/overview/observability.gif?raw=True" /> |
 
 <br />
 
-# 🧙 Intro
+# 🧙 Intro for Mage, by Mage.
 
 Mage is an open-source data pipeline tool for transforming and integrating data.
 
@@ -169,19 +176,9 @@ Mage is an open-source data pipeline tool for transforming and integrating data.
 
 # 🏃‍♀️ Install
 
-The recommended way to install the latest version of Mage is through Docker with the following command:
-
-```bash
-docker pull mageai/mageai:latest
-```
-
-You can also install Mage using pip or conda, though this may cause dependency issues without the proper environment.
-
+The actual project was used the Mage install using pip at the provided VM delivered by GCP.
 ```bash
 pip install mage-ai
-```
-```bash
-conda install -c conda-forge mage-ai
 ```
 
 Looking for help? The _fastest_ way to get started is by checking out our documentation [here](https://docs.mage.ai/getting-started/setup).
@@ -220,11 +217,11 @@ Build and run a data pipeline with our <b>[demo app](https://demo.mage.ai/)</b>.
 
 |   |   |   |
 | --- | --- | --- |
-| 🎶 | <b>[Orchestration](https://docs.mage.ai/design/data-pipeline-management)</b> | Schedule and manage data pipelines with observability. |
-| 📓 | <b>[Notebook](https://docs.mage.ai/about/features#notebook-for-building-data-pipelines)</b> | Interactive Python, SQL, & R editor for coding data pipelines. |
-| 🏗️ | <b>[Data integrations](https://docs.mage.ai/data-integrations/overview)</b> | Synchronize data from 3rd party sources to your internal destinations. |
+| 🎶 | <b>[Modeling](https://bit.ly/lucid-app-de-trip-project-model)</b> | Manage of data behavior. |
+| 📓 | <b>[Notebook](https://bit.ly/notebook-de-project)</b> | Interactive Python code for data pipeline. |
+| 🏗️ | <b>[Compute Engine](https://docs.mage.ai/data-integrations/overview)</b> | Synchronizing GCP VM to use Mage AI for ETL. |
 | 🚰 | <b>[Streaming pipelines](https://docs.mage.ai/guides/streaming-pipeline)</b> | Ingest and transform real-time data. |
-| ❎ | <b>[dbt](https://docs.mage.ai/dbt/overview)</b> | Build, run, and manage your dbt models with Mage. |
+| ❎ | <b>[Data project](https://docs.mage.ai/dbt/overview)</b> | Build, run, and manage the data model with SQL at BigQuery. |
 
 <b>A sample data pipeline defined across 3 files ➝</b>
 
