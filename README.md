@@ -104,8 +104,8 @@
 
 <br />
 
-<p align="center">1️⃣ 🏗️</p>
-<h1 align="center">Tech stack</h1>
+<p align="center">1️⃣ 🏗️ The tech stack</p>
+<h1 align="center">How's gonna work our project?</h1>
 <p align="center">
   Languages: Python, SQL
   <br />
