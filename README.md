@@ -114,7 +114,7 @@
 
 |   |   |
 | --- | --- |
-| <b>Easy developer experience</b><br />Start developing locally with a single command or launch a dev environment in your cloud using Terraform.<br /><br/><b>Language of choice</b><br />Write code in Python, SQL, or R in the same data pipeline for ultimate flexibility.<br /><br /><b>Engineering best practices built-in</b><br />Each step in your pipeline is a standalone file containing modular code that’s reusable and testable with data validations. No more DAGs with spaghetti code. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-build.gif?raw=true" /> |
+| <b>Easy developer experience</b><br /> This project leverages cloud infrastructure to handle and analyze large volumes of data, utilizing services like Google BigQuery. With a VM-hosted approach, we streamline the efficient execution of data engineering operations at scale.<br /><br/><b>Language of choice</b><br />Coded in Python to Data Modeling, Data Wrangling & Data Cleaning; SQL for ultimate flexibility at data analysis.<br /><br /><b>Engineering best practices built-in</b><br />Each step in the pipeline is a standalone file containing modular code that’s reusable and testable with data validations. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-build.gif?raw=true" /> |
 
 <p align="center">
   ↓
