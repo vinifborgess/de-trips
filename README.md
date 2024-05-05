@@ -495,6 +495,6 @@ Check out our [FAQ page](https://docs.mage.ai/about/frequently-asked-questions) 
 # 🪪 License
 See the [LICENSE](LICENSE) file for licensing information.
 
-[<img alt="Water mage casting spell" height="300" src="https://github.com/mage-ai/assets/blob/main/mage-water-charging-up.svg?raw=True" />](https://www.mage.ai/)
+[<img alt="Water mage casting spell" height="300" src="https://images.neopets.com/images/nf/ramtor_bruce.png" />](https://www.mage.ai/)
 
 <br />
