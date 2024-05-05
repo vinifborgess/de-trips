@@ -121,16 +121,16 @@
 </p>
 
 <p align="center">2️⃣ 🔮</p>
-<h1 align="center">Preview</h1>
+<h1 align="center">Dataset</h1>
 <p align="center">
-  Stop wasting time waiting around for your DAGs to finish testing.
+  TLC Official Data: The New York City Taxi and Limousine Commission (TLC), created in 1971, is the agency responsible for licensing and regulating New York City's Medallion (Yellow) taxi cabs, for-hire vehicles (community-based liveries, black cars and luxury limousines), commuter vans, and paratransit vehicles. TLC Trip Record Data Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
   <br />
-  Get instant feedback from your code each time you run it.
+ With instant feedback from the code each time you run it.
 </p>
 
 |   |   |
 | --- | --- |
-| <b>Interactive code</b><br />Immediately see results from your code’s output with an interactive notebook UI.<br /><br/><b>Data is a first-class citizen</b><br />Each block of code in your pipeline produces data that can be versioned, partitioned, and cataloged for future use.<br /><br /><b>Collaborate on cloud</b><br />Develop collaboratively on cloud resources, version control with Git, and test pipelines without waiting for an available shared staging environment. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-preview.gif?raw=True" /> |
+| <b>Interactive code</b><br />Immediately see results from the code’s output with an interactive notebook UI.<br /><br/><b>AAA Data</b><br />Each block of code pipeline produces data that can be versioned, partitioned, and cataloged for future use.<br /><br /><b>Collaborate on cloud</b><br />Develop collaboratively on cloud resources, version control with Git, and test pipelines without waiting for an available shared staging environment. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-preview.gif?raw=True" /> |
 
 <p align="center">
   ↓
