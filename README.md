@@ -12,7 +12,7 @@
   </a>
 </h1>
 <p align="center">
-  🧙 A modern replacement for Airflow.
+  🚖 NYC Trips | End-To-End Data Engineering Project
 </p>
 
 <p align="center">
