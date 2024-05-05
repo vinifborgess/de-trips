@@ -6,7 +6,7 @@
     <img
       align="center"
       alt="Mage"
-      src="https://github.com/mage-ai/assets/blob/main/mascots/mascots-shorter.jpeg?raw=true"
+      src="https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/architecture.jpg"
       style="width:100%;"
     />
   </a>
