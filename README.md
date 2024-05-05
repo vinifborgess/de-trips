@@ -377,14 +377,41 @@ Build and run a data pipeline with our <b>[demo app](https://demo.mage.ai/)</b>.
     """
     assert output is not None, 'The output is undefined'
     ```
-1. Export data ➝
+3. Export data ➝
     ```python
+    from mage_ai.data_preparation.repo_manager import get_repo_path
+    from mage_ai.io.bigquery import BigQuery
+    from mage_ai.io.config import ConfigFileLoader
+    from pandas import DataFrame
+    from os import path
+
+    if 'data_exporter' not in globals():
+    from mage_ai.data_preparation.decorators import data_exporter
+
+
     @data_exporter
-    def export_titanic_data_to_disk(df) -> None:
-        df.to_csv('default_repo/titanic_transformed.csv')
+    def export_data_to_big_query(data, **kwargs) -> None:
+    """
+    Template for exporting data to a BigQuery warehouse.
+    Specify your configuration settings in 'io_config.yaml'.
+
+    Docs: https://docs.mage.ai/design/data-loading#bigquery
+
+    
+    """
+    config_path = path.join(get_repo_path(), 'io_config.yaml')
+    config_profile = 'default'
+
+    for key, value in data.items():
+        table_id = 'project-trips-422012.trips_de_project.{}'.format(key)
+        BigQuery.with_config(ConfigFileLoader(config_path, config_profile)).export(
+            DataFrame(value),
+            table_id,
+            if_exists='replace',  # Specify resolution policy if table name already exists
+        )
     ```
 
-<b>What the data pipeline looks like in the UI ➝</b>
+<b>A data pipeline UI sample ➝</b>
 
 <img
   alt="data pipeline overview"
@@ -395,17 +422,13 @@ Build and run a data pipeline with our <b>[demo app](https://demo.mage.ai/)</b>.
 
 <br />
 
-# 🏔️ [Core design principles](https://docs.mage.ai/design/core-design-principles)
+# 🏔️ [Data storage](https://docs.google.com/spreadsheets/d/1G6Qdin2WCnf1UDo904vYnu_k3MmBQrEQE3JoNhnKl5I/edit?usp=sharing)
 
-Every user experience and technical design decision adheres to these principles.
+In GCP's BigQuery ecosystem, the Data Exporter boasts a sophisticated codebase designed to seamlessly interact with the API and securely handle credential keys. This robust engineering ensures a scalable and resilient data solution, capable of meeting the demands of modern data-intensive applications.
 
 |   |   |   |
 | --- | --- | --- |
-| 💻 | [Easy developer experience](https://docs.mage.ai/design/core-design-principles#easy-developer-experience) | Open-source engine that comes with a custom notebook UI for building data pipelines. |
-| 🚢 | [Engineering best practices built-in](https://docs.mage.ai/design/core-design-principles#engineering-best-practices-built-in) | Build and deploy data pipelines using modular code. No more writing throwaway code or trying to turn notebooks into scripts. |
-| 💳 | [Data is a first-class citizen](https://docs.mage.ai/design/core-design-principles#data-is-a-first-class-citizen) | Designed from the ground up specifically for running data-intensive workflows. |
-| 🪐 | [Scaling is made simple](https://docs.mage.ai/design/core-design-principles#scaling-is-made-simple) | Analyze and process large data quickly for rapid iteration. |
-
+| 💻 | [Data storage](https://docs.google.com/spreadsheets/d/1G6Qdin2WCnf1UDo904vYnu_k3MmBQrEQE3JoNhnKl5I/edit?usp=sharing) | Data solution in cloud. |
 <br />
 
 # 🛸 [Core abstractions](https://docs.mage.ai/design/core-abstractions)
@@ -423,9 +446,13 @@ These are the fundamental concepts that Mage uses to operate.
 
 <br />
 
-# 🙋‍♀️ Contributing and developing
+# 🙋‍♀️ Hey there!
 
-Add features and instantly improve the experience for everyone.
+Given recent fluctuations in Mage, I made the decision to migrate the final solution to Colab > Cloud. On an interim basis, data storage is hosted in a Cloud environment, implemented through a different Jupyter. Simpler. However, following the same logic as the Trips Data Engineering Project.
+
+This new system will provide a temporary answer to our solution. A database in the cloud, allowing SQL analysis in a versatile and, in some ways, faster way for the short term. Additionally, it integrates seamlessly with tools like Spreadsheets, Looker, and other resources, providing a more fluid and efficient experience for all users.
+
+To access the Python code that performs this temporary solution, simply click on the link:
 
 Check out the <b>[contributing guide](https://docs.mage.ai/community/contributing)</b>
 to set up your development environment and start building.
