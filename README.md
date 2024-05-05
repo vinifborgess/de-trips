@@ -91,15 +91,15 @@
 </div>
 
 <p align="center">
-  <b>Integrate</b> and synchronize data from 3rd party sources
+  <b>Integration</b> , transformation and Modeling with Python 
 </p>
 
 <p align="center">
-  Build real-time and batch pipelines to <b>transform</b> data using Python, SQL, and R
+  Build a real-time pipeline to <b>transform</b> data using Python
 </p>
 
 <p align="center">
-  Run, monitor, and <b>orchestrate</b> thousands of pipelines without losing sleep
+  Run, monitor, and <b>orchestrate</b> the data pipeline to a Big Query solution
 </p>
 
 <br />
