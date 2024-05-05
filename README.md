@@ -32,7 +32,7 @@
     href="https://www.mage.ai/chat"
     target="_blank"
   >
-    <b>Get instant help</b>
+    <b>Trello Board</b>
   </a>
 </p>
 <div align="center">
@@ -86,7 +86,7 @@
 
 <div align="center">
 
-### Give your data team `magical` powers
+### Complete data scalability with `Python, Mage AI, GCP and extras`
 
 </div>
 
