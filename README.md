@@ -105,11 +105,11 @@
 <br />
 
 <p align="center">1️⃣ 🏗️</p>
-<h1 align="center">Build</h1>
+<h1 align="center">Tech stack</h1>
 <p align="center">
-  Have you met anyone who said they loved developing in Airflow?
+  Languages: Python, SQL
   <br />
-  That’s why we designed an easy developer experience that you’ll enjoy.
+  Tools: Google Cloud Platform, Google Storage, Compute Instance, BigQuery, Mage AI
 </p>
 
 |   |   |
