@@ -181,16 +181,14 @@ Looking for quick examples? Open a [demo](https://demo.mage.ai/) project right i
 
 ### Live demo
 
-Build & run of pipelines. <b>[demo app](https://demo.mage.ai/)</b>.
-
+Build & run of pipelines. <b>[Demo app](https://demo.mage.ai/)</b>.
 >
 > The live demo is public to everyone.
->
 
 <br />
-
 <br />
-# 🔮 [Features](https://docs.mage.ai/about/features)
+
+# 🔮 Features 
 
 |   |   |   |
 | --- | --- | --- |
