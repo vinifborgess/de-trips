@@ -52,25 +52,24 @@
     href="https://opensource.org/licenses/Apache-2.0"
     target="_blank"
   >
-    <img alt="License" src="https://img.shields.io/github/license/mage-ai/mage-ai?color=red" />
   </a>
   <a
     href="https://www.mage.ai/chat"
     target="_blank"
   >
-    <img alt="Slack" src="https://img.shields.io/badge/Slack-Join%20Slack-blueviolet?logo=slack" />
+    
   </a>
   <a
     href="https://github.com/mage-ai/mage-ai"
     target="_blank"
   >
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/mage-ai/mage-ai?logo=github">
+    
   </a>
   <a
     href="https://hub.docker.com/r/mageai/mageai"
     target="_blank"
   >
-    <img alt="Docker pulls" src="https://img.shields.io/docker/pulls/mageai/mageai.svg">
+    
   </a>
   <a
     href="https://pepy.tech/project/mage-ai"
@@ -163,14 +162,7 @@
 
 Mage is an open-source data pipeline tool for transforming and integrating data.
 
-1. [Install](#%EF%B8%8F-install)
-1. [Demo](#-demo)
-1. [Tutorials](#-tutorials)
-1. [Documentation](https://docs.mage.ai)
-1. [Features](#-features)
-1. [Core design principles](https://docs.mage.ai/design/core-design-principles)
-1. [Core abstractions](https://docs.mage.ai/design/core-abstractions)
-1. [Contributing](https://docs.mage.ai/community/contributing)
+# 📖 [Documentation](https://docs.mage.ai/getting-started/setup)
 
 <br />
 
@@ -189,30 +181,15 @@ Looking for quick examples? Open a [demo](https://demo.mage.ai/) project right i
 
 ### Live demo
 
-Build and run a data pipeline with our <b>[demo app](https://demo.mage.ai/)</b>.
+Build & run of pipelines. <b>[demo app](https://demo.mage.ai/)</b>.
 
-> WARNING
 >
-> The live demo is public to everyone, please don’t save anything sensitive (e.g. passwords, secrets, etc).
-### Demo video (5 min)
-
-[![Mage quick start demo](https://github.com/mage-ai/assets/blob/main/overview/overview-video.png?raw=True)](https://youtu.be/GswOdShLGmg)
-
-<sub><i>Click the image to play video</i></sub>
+> The live demo is public to everyone.
+>
 
 <br />
 
-# 👩‍🏫 Tutorials
-
-- [Load data from API, transform it, and export it to PostgreSQL](https://docs.mage.ai/guides/load-api-data)
-- [Integrate Mage into an existing Airflow project](https://docs.mage.ai/integrations/airflow)
-- [Train model on Titanic dataset](https://docs.mage.ai/guides/train-model)
-- [Set up dbt models and orchestrate dbt runs](https://docs.mage.ai/integrations/dbt-models)
-
-<img alt="Fire mage" height="160" src="https://github.com/mage-ai/assets/blob/main/mage-fire-charging-up.svg?raw=True" />
-
 <br />
-
 # 🔮 [Features](https://docs.mage.ai/about/features)
 
 |   |   |   |
@@ -418,8 +395,6 @@ Build and run a data pipeline with our <b>[demo app](https://demo.mage.ai/)</b>.
   src="https://github.com/mage-ai/assets/blob/main/data-pipeline-overview.png?raw=True"
 />
 
-[![Ask us questions on Slack](https://img.shields.io/badge/%20-Ask%20us%20questions%20on%20Slack-purple?style=for-the-badge&logo=slack&labelColor=6B50D7)](https://www.mage.ai/chat)
-
 <br />
 
 # 🏔️ [Data storage](https://docs.google.com/spreadsheets/d/1G6Qdin2WCnf1UDo904vYnu_k3MmBQrEQE3JoNhnKl5I/edit?usp=sharing)
@@ -459,41 +434,26 @@ to set up your development environment and start building.
 
 <br />
 
-# 👨‍👩‍👧‍👦 Community
-Individually, we’re a mage.
+# 👨‍👩‍👧‍👦 Thanks!
+Wow! It's a lot of info, huh?.
 
-> 🧙 Mage
+> 🧙‍♂️🧙 Conclusion
 >
-> Magic is indistinguishable from advanced technology.
-> A mage is someone who uses magic (aka advanced technology).
-Together, we’re Magers!
-
-> 🧙‍♂️🧙 Magers (`/ˈmājər/`)
+> The project aims to perform an E2E Data Engineering project. Tools and technologies includes GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and scalable with Looker.
 >
-> A group of mages who help each other realize their full potential!
-Let’s hang out and chat together ➝
-
-[![Hang out on Slack](https://img.shields.io/badge/%20-Hang%20out%20on%20Slack-purple?style=for-the-badge&logo=slack&labelColor=6B50D7)](https://www.mage.ai/chat)
+> The task involves building an automated process to ingest data on-demand (with .parquets of TLC Database), representing trips by different vehicles with city, origin, and destination information. This automation enables continuous analysis of travel patterns, demand trends, operational efficiency, and other key metrics, providing valuable insights for route optimization, resource allocation, and strategic decisions. 
+> 
 
 For real-time news, fun memes, data engineering topics, and more, join us on ➝
 
 |   |   |
 | --- | --- |
-| <img alt="Twitter" height="20" src="https://user-images.githubusercontent.com/78053898/198755056-a15c4439-c07f-41ea-ba35-bc4bfdd09f1a.png" /> | [Twitter](https://twitter.com/mage_ai) |
 | <img alt="LinkedIn" height="20" src="https://user-images.githubusercontent.com/78053898/198755052-2777d6ae-c161-4a4b-9ece-4fd7bd458e26.png" /> | [LinkedIn](https://www.linkedin.com/company/magetech/mycompany) |
-| <img alt="GitHub" height="20" src="https://user-images.githubusercontent.com/78053898/198755053-5c3971b1-9c49-4888-8a8e-1599f0fc6646.png" /> | [GitHub](https://github.com/mage-ai/mage-ai) |
-| <img alt="Slack" height="20" src="https://user-images.githubusercontent.com/78053898/198755054-03d47bfc-18b6-45a5-9593-7b496eb927f3.png" /> | [Slack](https://www.mage.ai/chat) |
+| <img alt="GitHub" height="20" src="https://user-images.githubusercontent.com/78053898/198755053-5c3971b1-9c49-4888-8a8e-1599f0fc6646.png" /> | [GitHub](https://github.com/vinifborgess) |
 
 <br />
 
-# 🤔 Frequently Asked Questions (FAQs)
-
-Check out our [FAQ page](https://docs.mage.ai/about/frequently-asked-questions) to find answers to some of our most asked questions.
-
-<br />
-
-# 🪪 License
-See the [LICENSE](LICENSE) file for licensing information.
+# 🪪 Made by Vinícius Borges. Data Scientist, Full Stack on Data Science & Web3 Data Analyst.
 
 [<img alt="Water mage casting spell" height="300" src="https://images.neopets.com/images/nf/ramtor_bruce.png" />](https://www.mage.ai/)
 
