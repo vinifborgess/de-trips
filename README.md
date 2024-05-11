@@ -442,8 +442,6 @@ Wow! It's a lot of info, huh?.
 > The task involves building an automated process to ingest data on-demand (with .parquets of TLC Database), representing trips by different vehicles with city, origin, and destination information. This automation enables continuous analysis of travel patterns, demand trends, operational efficiency, and other key metrics, providing valuable insights for route optimization, resource allocation, and strategic decisions. 
 > 
 
-For real-time news, fun memes, data engineering topics, and more, join us on ➝
-
 |   |   |
 | --- | --- |
 | <img alt="LinkedIn" height="20" src="https://user-images.githubusercontent.com/78053898/198755052-2777d6ae-c161-4a4b-9ece-4fd7bd458e26.png" /> | [LinkedIn](https://www.linkedin.com/company/magetech/mycompany) |
