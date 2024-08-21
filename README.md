@@ -138,7 +138,7 @@
 
 |   |   |
 | --- | --- |
-| <b>Interactive code</b><br />Immediately see results from the code’s output with an interactive notebook UI.<br /><br/><b>AAA Data</b><br />Each block of code pipeline produces data that can be versioned, partitioned, and cataloged for future use.<br /><br /><b>Collaborate on cloud</b><br />Develop collaboratively on cloud resources, version control with Git, and test pipelines without waiting for an available shared staging environment. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-preview.gif?raw=True" /> |
+| <b>Interactive code</b><br />Immediately see results from the code’s output with an interactive notebook UI.<br /><br/><b>High-quality Data</b><br />Each block of code pipeline produces data that can be versioned, partitioned, and cataloged for future use.<br /><br /><b>Collaborate on cloud</b><br />Develop collaboratively on cloud resources, version control with Git, and test pipelines without waiting for an available shared staging environment. | <img src="https://github.com/mage-ai/assets/blob/main/overview/mage-preview.gif?raw=True" /> |
 
 <p align="center">
   ↓
